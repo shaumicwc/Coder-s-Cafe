@@ -8,13 +8,22 @@ import Blogs from './Components/Blogs/Blogs';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [readTimes, setReadTime] = useState(0);
+
+  const handleReadTime = (readTime) =>{
+      const readTimeInt = parseInt(readTime);
+      setReadTime(readTimes + readTimeInt);
+
+  }
 
   return (
     <div className="App container">
-
+      
       <Header></Header>
-      <Blogs></Blogs>
+      <Blogs 
+      readTimes={readTimes}
+      handleReadTime={handleReadTime}
+      ></Blogs>
       
       <Faq></Faq>
 

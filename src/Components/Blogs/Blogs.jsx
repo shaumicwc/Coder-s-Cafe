@@ -4,7 +4,7 @@ import SideCard from '../SideCard/SideCard';
 import './Blogs.css'
 
 
-const Blogs = () => {
+const Blogs = ({handleReadTime, readTimes}) => {
     const [blogs, setBlog] = useState([]);
 
     useEffect(() =>{
@@ -19,11 +19,14 @@ const Blogs = () => {
                     blogs.map(blog => <BlogCard
                     blog={blog}
                     key={blog.id}
+                    handleReadTime={handleReadTime}
                     ></BlogCard>)
                 }
             </div>
             <div className='bookmark-cart col-md-4 card border-0'>
-                    <SideCard></SideCard>
+                    <SideCard
+                    readTimes={readTimes}
+                    ></SideCard>
             </div>
         </div>
     );
