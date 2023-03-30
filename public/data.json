@@ -1,0 +1,46 @@
+[
+    {
+        "id" : "01",
+        "AuthorName" : "Robert Landon",
+        "BlogTitle" : "This is how to get your first job as a self-taught programmer",
+        "Images" : {
+            "BlogCoverImage" : "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "AuthorImage" : "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "ReadTime" : "05 min",
+        "PublishDate" : "Mar 16 (14 Days ago)"
+    },
+    {
+        "id" : "02",
+        "AuthorName" : "Rachel Jhonson",
+        "BlogTitle" : "This is how to learn Code well in your own",
+        "Images" : {
+            "BlogCoverImage" : "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "AuthorImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHo41BJ-g4wME4x1AK8ww4b3FP_kYYX2B-dg&usqp=CAU"
+        },
+        "ReadTime" : "07 min",
+        "PublishDate" : "Mar 14 (16 Days ago)"
+    },
+    {
+        "id" : "03",
+        "AuthorName" : "Mark Chadbon",
+        "BlogTitle" : "This is how to dominant Job sector by learning React.js",
+        "Images" : {
+            "BlogCoverImage" : "https://images.unsplash.com/photo-1626968361222-291e74711449?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29kZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "AuthorImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXjQtiAfjxWM6cSq84sV3si7HQJbjfIsqeA&usqp=CAU"
+        },
+        "ReadTime" : "06 min",
+        "PublishDate" : "Mar 12 (18 days ago)"
+    },
+    {
+        "id" : "04",
+        "AuthorName" : "Cris Carter",
+        "BlogTitle" : "How to master in multiple coding language of your choosing ?",
+        "Images" : {
+            "BlogCoverImage" : "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNvZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "AuthorImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx93-lFISbLvP3esk5sa7_nLPSKaCIGYN3qQ&usqp=CAU"
+        },
+        "ReadTime" : "04 min",
+        "PublishDate" : "Mar 10 (20 Days ago)"
+    }
+]
