@@ -1,0 +1,14 @@
+.faq-container p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.question {
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
