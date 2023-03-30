@@ -18,7 +18,7 @@ const BlogCard = ({blog}) => {
                     </div>
                 </div>
                 <div className='d-flex align-items-center'>
-                    <p className='mt-2 mx-2'>{ReadTime}</p>
+                    <p className='mt-3 mx-2'>{ReadTime} min read</p>
                     <FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>
                 </div>
             </div>

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import BlogCard from '../BlogCard/BlogCard';
+import SideCard from '../SideCard/SideCard';
 import './Blogs.css'
+
 
 const Blogs = () => {
     const [blogs, setBlog] = useState([]);
@@ -21,7 +23,7 @@ const Blogs = () => {
                 }
             </div>
             <div className='bookmark-cart col-md-4 card border-0'>
-
+                    <SideCard></SideCard>
             </div>
         </div>
     );
