@@ -1,0 +1,28 @@
+.author-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.blog-cover-image{
+    height: 60vh;
+}
+.author-name{
+    margin-bottom: 0;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+.blog-title{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+}
+.read-btn{
+    width: 17%;
+    color: #6047EC;
+    text-decoration: underline;
+}
