@@ -1,0 +1,17 @@
+.nav-title {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+.header{
+    top: 0;
+    height: 80px;
+    background-color:#1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
