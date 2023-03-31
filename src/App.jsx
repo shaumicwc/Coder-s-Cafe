@@ -2,10 +2,11 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header/Header'
 import Faq from './Components/FAQ/Faq'
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import { toast, ToastContainer } from 'react-toastify';
-import { ToastContainer, toast } from 'react-toast'
 import Blogs from './Components/Blogs/Blogs';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   const [readTimes, setReadTime] = useState(0);
@@ -29,6 +30,7 @@ function App() {
     <div className="App container">
       <Header></Header>
       <Blogs
+        bookmarks={bookmarks}
         readTimes={readTimes}
         handleReadTime={handleReadTime}
         handleBookmark={handleBookmark}

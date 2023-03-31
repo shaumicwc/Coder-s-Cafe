@@ -5,7 +5,7 @@
     font-size: 40px;
     color: #000;
 }
-.header{
+.header-container{
     top: 0;
     height: 80px;
     display: flex;
@@ -21,4 +21,27 @@ nav.header a{
 }
 nav.header a:hover{
     color: goldenrod;
+}
+
+hr {
+    width: 75%;
+    margin: 20px auto;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+}
+
+@media (max-width: 768px) {
+    .nav-title-text{
+        font-size: 20px;
+    }
+    nav.header a{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .header-img{
+        width: 40px;
+    }
+    .header-container{
+        padding-left: 0px;
+        padding-right: 5px;
+    }
 }
