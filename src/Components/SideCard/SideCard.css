@@ -19,3 +19,11 @@
     font-weight: 700;
     
 }
+@media (max-width: 768px) {
+    .spent-time{
+        font-size: 15px;
+    }
+    .bookmarked-text{
+        font-size: 15px;
+    }
+}

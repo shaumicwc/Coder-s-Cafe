@@ -28,4 +28,30 @@
     background-color: transparent;
     
 }
-
+@media (max-width: 768px) {
+    .blog-cover-image {
+      height: 27vh;
+    }
+    .author-image{
+        width: 50px;
+        height: 50px;
+    }
+    .author-name{
+        font-size: 17px;
+    }
+    .publish-date{
+        font-size: 12px;
+    }
+    .read-time{
+        font-size: 15px;
+    }
+    .blog-title{
+        font-size: 18px;
+    }
+    .read-btn{
+        font-size: 14px;
+    }
+    .hash-tag{
+        font-size: 15px;
+    }
+  }
