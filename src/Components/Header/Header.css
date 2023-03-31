@@ -29,7 +29,7 @@ hr {
     border: 1px solid rgba(17, 17, 17, 0.15);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .nav-title-text{
         font-size: 20px;
     }

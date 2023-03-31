@@ -28,7 +28,7 @@
     background-color: transparent;
     
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .blog-cover-image {
       height: 27vh;
     }
