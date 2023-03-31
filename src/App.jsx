@@ -20,7 +20,7 @@ function App() {
   const handleBookmark = (bookmark) => {
     if (bookmarks.includes(bookmark)) {
       toast('This bookmark is already added');
-      return;
+    
     }
     const newBookmark = [...bookmarks, bookmark];
     setBookmark(newBookmark);

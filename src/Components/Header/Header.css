@@ -14,14 +14,7 @@
     padding-left: 100px;
     padding-right: 100px;
 }
-nav.header a{
-    text-decoration: none;
-    color: black;
-    margin-left: 30px;
-}
-nav.header a:hover{
-    color: goldenrod;
-}
+
 
 hr {
     width: 75%;
@@ -33,10 +26,7 @@ hr {
     .nav-title-text{
         font-size: 20px;
     }
-    nav.header a{
-        font-size: 12px;
-        margin-left: 10px;
-    }
+   
     .header-img{
         width: 40px;
     }
