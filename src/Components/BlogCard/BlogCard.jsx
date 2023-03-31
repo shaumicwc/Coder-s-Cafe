@@ -23,7 +23,7 @@ const BlogCard = ({blog, handleReadTime, handleBookmark}) => {
             </div>
             <p className='blog-title text-start'>{BlogTitle}</p>
             <p className='text-start'>#bigener <span className='ms-3'>#programming</span> </p>
-            <button onClick={() => handleReadTime(ReadTime)} className='read-btn'>Mark as read</button>
+            <button type="button" onClick={() => handleReadTime(ReadTime)} className='read-btn'>Mark as read</button>
         </div>
     );
 };
